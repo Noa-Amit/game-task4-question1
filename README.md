@@ -5,10 +5,10 @@
  
 We took the shield scene from the class and made some changes :
 
-1. Hit points- the player has 3 lifes at the beggining. In the script NumberField we change it so it will fixed.
+1. Hit points- the player has 3 lifes at the beggining. In the script DestroyOnTrigger2D we change it so it will fixed.
 
-  https://github.com/Noa-Amit/game-task4-question1/blob/main/Assets/Scripts/3-text/NumberField.cs
-
+  https://github.com/Noa-Amit/game-task4-question1/blob/main/Assets/Scripts/3-collisions/DestroyOnTrigger2D.cs
+  
 2. life- we added an object in the game that the player could take and get more life. we made an object "life" that has script "GiveMoreLife"
 
   https://github.com/Noa-Amit/game-task4-question1/blob/main/Assets/Scripts/giveMoreLife.cs
