@@ -5,7 +5,7 @@
  
 We took the shield scene from the class and made some changes :
 
-1. Hit points- the player has 3 lifes at the beggining. In the script DestroyOnTrigger2D we change it so it will fixed.
+1. Hit points- the player has 3 lifes at the beggining. In the script DestroyOnTrigger2D we added a paramemter that count the player's life and destroy the player only if it has no more lifes.
 
   https://github.com/Noa-Amit/game-task4-question1/blob/main/Assets/Scripts/3-collisions/DestroyOnTrigger2D.cs
   
