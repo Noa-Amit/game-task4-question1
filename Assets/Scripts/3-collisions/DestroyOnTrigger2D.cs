@@ -14,7 +14,7 @@ public class DestroyOnTrigger2D : MonoBehaviour {
         if (other.tag == triggeringTag && enabled) {
             life_points--;
             Debug.Log("life: "+life_points);
-            if (life_points == 0 ){
+            if (life_points <= 0 ){
                 Destroy(this.gameObject);
             }
             Destroy(other.gameObject);
